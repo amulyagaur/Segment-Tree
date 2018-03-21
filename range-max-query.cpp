@@ -91,8 +91,8 @@ int main()
     //cout<<query(tree,index,s,e,0,0)<<endl;
     //cout<<query(tree,index,s,e,1,4)<<endl;
     
-	updateRange(tree,index,s,e,0,5,1);
-	 for(int i=0;i<6;i++)
+    updateRange(tree,index,s,e,0,5,1);
+    for(int i=0;i<6;i++)
     cout<<query(tree,index,s,e,i,i)<<endl;
     return 0;
 }
